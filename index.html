@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col-4">
+                <div class="card-body">
+                    <form class="form-group">
+                        <label for="citySearch" class="font-weight-bold">Search for a City:</label>
+                        <br>
+                        <input class="form-control" type="search" placeholder="City" aria-label="Search"
+                            id="citySearch">
+                        <button class="btn btn-primary my-2" type="submit">Search</button>
+                    </form>
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card-body">
+                    <div class="card p-4">
+                        <h1 class="display-6">Atlanta <i>☀️</i></h1>
+                        <p>Temperature: 78F</p>
+                        <p>Humidity: 41%</p>
+                        <p>WInd Speed: 4.7MPH</p>
+                        <p>UV Index: <span id="UV" class="bg-danger text-white p-1 rounded">9.49</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container-fluid card-body">
+                        <h2 class="ml-1">5-Day Forcast:</h2>
+                        <div class="row justify-content-center">
+                            <div class="card mx-2 pt-1 col-2">
+                                <p>04/25/2021</p>
+                                <p><i>☀️</i></p>
+                                <p>Temp: 72F</p>
+                                <p>Humidity: 36%</p>
+                            </div>
+                            <div class="card mx-2 pt-1 col-2">
+                                <p>04/25/2021</p>
+                                <p><i>☀️</i></p>
+                                <p>Temp: 72F</p>
+                                <p>Humidity: 36%</p>
+                            </div>
+                            <div class="card mx-2 pt-1 col-2">
+                                <p>04/25/2021</p>
+                                <p><i>☀️</i></p>
+                                <p>Temp: 72F</p>
+                                <p>Humidity: 36%</p>
+                            </div>
+                            <div class="card mx-2 pt-1 col-2">
+                                <p>04/25/2021</p>
+                                <p><i>☀️</i></p>
+                                <p>Temp: 72F</p>
+                                <p>Humidity: 36%</p>
+                            </div>
+                            <div class="card mx-2 pt-1 col-2">
+                                <p>04/25/2021</p>
+                                <p><i>☀️</i></p>
+                                <p>Temp: 72F</p>
+                                <p>Humidity: 36%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
