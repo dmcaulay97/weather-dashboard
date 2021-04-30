@@ -15,7 +15,7 @@ if (!(localStorage.getItem("searched") == null)) {
 }
 
 function getCoords(city) {
-    fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + key).then(function (response) {
+    fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + key).then(function (response) {
         if (response.ok) {
             response.json().then(function (data) {
                 if (data.length === 0) {
