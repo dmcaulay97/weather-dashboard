@@ -1,0 +1,68 @@
+#weatherDisplay{
+    display: none;
+}
+
+.searchedList:hover{
+    cursor: pointer;
+}
+
+.searchedList{
+    position: relative;   
+}
+
+.delete{
+    position: absolute;
+    right: 10px;
+    line-height: 24px;
+    color: rgb(192, 5, 5);
+}
+
+.delete:hover{
+    color: rgb(129, 31, 31);
+}
+
+#fiveDayLable{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.card, #fiveDayLable{
+    background-color: #f4d6cc86;
+}
+
+body{
+    background-color: #4A5859;
+    color:#2f597a;
+}
+
+#citySearch, .searchedList{
+    background-color: rgb(250, 231, 231);
+}
+
+#searchLable{
+    font-size: 20px;
+}
+
+#cityName{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: rgb(192, 5, 5);
+    border-color: rgb(192, 5, 5);
+}
+
+.btn:hover{
+    background-color: rgb(129, 31, 31);
+    border-color: rgb(129, 31, 31);
+}
+
+p, li {
+    font-weight: 500;
+}
+
+.title{
+    color: rgb(192, 5, 5);
+}
